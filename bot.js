@@ -381,7 +381,7 @@ client.on('message', msg => {
     if(msg.member.hasPermission("ADMINISTRATOR")) {
     if (textxt == "") {
         msg.delete().then
-    msg.channel.send("***```ضع عدد الرسائل التي تريد مسحها 👌```***").then(m => m.delete(3000));
+    msg.channel.send("***```ضع عدد الرسائل التي تريد مسحها ```***").then(m => m.delete(3000));
 } else {
     msg.delete().then
     msg.delete().then
